@@ -1,0 +1,71 @@
+body {
+  background-image: url("https://s1.1zoom.me/b5041/890/Vegetables_Tomatoes_Cucumbers_Potato_Wood_planks_534409_1920x1080.jpg");
+ 
+ }
+button.submit {
+  float: right;
+  background-color:  rgb(121, 73, 73);
+  color: white;
+}
+.jumbotron{
+  text-align: center;
+  background-color:  rgb(121, 73, 73);
+  color: white;
+  opacity: 0.85;
+}
+form#cms {
+  margin-top: 50px;
+}
+
+#cms textarea {
+  resize: none;
+}
+.card{
+  text-align: center;
+  border: 2px solid black;
+}
+
+.card-header button.delete,
+button.edit {
+  float: right;
+  margin: 5px;
+background-color: white;
+color:  rgb(121, 73, 73);
+}
+.card-header{
+  background-color: rgb(121, 73, 73) ;
+  color: white;
+  text-align: center;
+}
+.author-container {
+  margin-top: 50px;
+}
+
+.author-list {
+  margin-top: 25px;
+}
+
+.blog-container {
+  margin-top: 30px;
+  
+}
+
+.blog {
+  margin-top: 30px;
+  
+}
+
+.hidden {
+  display: none;
+}
+
+#author-name {
+  width: 100%;
+  height: 35px;
+  margin-top: 5px;
+  
+}
+
+.top-30 {
+  margin-top: 30px;
+}
