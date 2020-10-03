@@ -1,5 +1,5 @@
 # Project-2.0.2
-h1>Welcome to ShoppersApp</h1>
+<h1>Welcome to ShoppersApp</h1>
 
 <h2>With this app you can create, modify or delete any shopping list and store it on a database</h2>
 
