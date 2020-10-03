@@ -66,7 +66,7 @@ $(document).ready(function() {
   // This function constructs a post's HTML
   function createNewRow(post) {
     var formattedDate = new Date(post.createdAt);
-    formattedDate = moment(formattedDate).format("DD/MM/YYYY, h:mm:ss a");
+    formattedDate = moment(formattedDate).format("MM/DD/YYYY, h:mm:ss a");
     var newPostCard = $("<div>");
     newPostCard.addClass("card");
     var newPostCardHeading = $("<div>");
@@ -77,19 +77,19 @@ $(document).ready(function() {
     var editBtn = $("<button>");
     editBtn.text("EDIT");
     editBtn.addClass("edit btn btn-info");
-    var newPostTitle = $("<h3>");
-    var newPostDate = $("<p>");
-    var newPostAuthor = $("<h6>");
+    var newPostTitle = $("<h5>");
+    var newPostDate = $("<small>");
+    var newPostAuthor = $("<p>");
     newPostAuthor.text("Written by: " + post.Author.name);
     newPostAuthor.css({
-      float: "right",
+      float: "center",
       color: "black",
       "margin-top":
       "-10px"
     });
     var newPostCardBody = $("<div>");
     newPostCardBody.addClass("card-body");
-    var newPostBody = $("<h6>");
+    var newPostBody = $("<h5>");
     newPostTitle.text(post.title + " ");
     newPostBody.text(post.body);
     newPostDate.text(formattedDate);
