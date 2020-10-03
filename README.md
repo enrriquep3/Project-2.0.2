@@ -6,13 +6,13 @@ h1>Welcome to ShoppersApp</h1>
 <h1>Deployment</h1>
 <p>Get online to  and create a shopper if you did not do it before, then create a title for your shopping list and save the content on a database, you also can modify and delete the lists any time <p>
   
-  ![](images/image1.jpg)
+  ![](images/image1.png)
   
-  ![](images/image2.jpg)
+  ![](images/image2.png)
 
-  ![](images/image3.jpg)
+  ![](images/image3.png)
 
-  ![](images/image4.jpg)
+  ![](images/image4.png)
   
 
 <h1>Built With</h1>
