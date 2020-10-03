@@ -24,7 +24,7 @@ Sequelize - database <p>
 
 
 <h1>Authors</h1>
-<p>Enrrique Pimentel -
+<p>Enrrique Pimentel -<br>
 Juan Rada -
 See also the list of contributors who participated in this project.<p>
 
